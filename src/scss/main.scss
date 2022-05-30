@@ -1,10 +1,70 @@
-$top-color: #0066cc;
-$bottom-color: #ffcc00;
-
-.top {
-  color: $top-color;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+body {
+  height: 960px;
+  background: #A7D7C5;
 }
 
-.bottom {
-  color: $bottom-color;
+
+.list {
+  margin: 131px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 698px;  
+  background: #F6FBF9;
+  border-radius: 49px;
+
+  h1 {
+    margin: 0px;
+    margin-top: 67px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 72px;
+    text-align: center;
+    color: #212B27;
+  }
+
+  p {
+    margin: 0;
+    margin-bottom: 36px;
+    width: 472px;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #32403B;
+  }
+
+  input {    
+    margin: 12px;
+    box-sizing: border-box;
+    width: 575px;
+    height: 84px;
+    background: #FFFFFF;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    padding-left: 33px;   
+  }
+
+  button {
+    margin: 32px;
+    width: 391px;
+    height: 90px;
+    background: #84C7AE;
+    border-radius: 23px;
+    border: none;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 44px; 
+    text-align: center;
+    color: #FFFFFF;
+  }
+
 }

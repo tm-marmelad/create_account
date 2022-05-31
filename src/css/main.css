@@ -43,11 +43,11 @@ body {
   
 }
 
-.box .btn {
+.box button {
   margin: 32px;
   width: 391px;
   height: 90px;
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -58,5 +58,6 @@ body {
   font-weight: 700;
   font-size: 33px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
